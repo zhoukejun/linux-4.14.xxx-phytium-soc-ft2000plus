@@ -129,6 +129,17 @@ config ARCH_MVEBU
 	   - Armada 7K SoC Family
 	   - Armada 8K SoC Family
 
+config ARCH_PHYTIUM
+	bool "Phytium SoC Platforms"
+	help
+	  This enables support for the ARMv8 based Phytium SoCs.
+
+config ARCH_FT2000PLUS
+	bool "Phytium FT2000PLUS SoC Platform"
+	depends on ARCH_PHYTIUM
+	help
+	  This enables support for the Phytium FT2000PLUS SoC.
+
 config ARCH_QCOM
 	bool "Qualcomm Platforms"
 	select GPIOLIB

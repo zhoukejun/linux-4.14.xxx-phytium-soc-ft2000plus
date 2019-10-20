@@ -24,6 +24,7 @@ dts-dirs += sprd
 dts-dirs += xilinx
 dts-dirs += lg
 dts-dirs += zte
+dts-dirs += phytium
 
 subdir-y	:= $(dts-dirs)
 
